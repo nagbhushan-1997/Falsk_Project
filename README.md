@@ -33,7 +33,7 @@ d. Creating Heat map using Correlation
 e. EDA( Exploratory Data Analysis )
 f. Splitting  the Data Into Train Test Split
 
-I used 3 Regression Problems,
+I used 3 Regression Models,
 
 1. Linear Regression 
 2. Ridge Regression
