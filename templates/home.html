@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fnitinchoudhary012%2Falgerian-forest-fires-dataset&psig=AOvVaw3uIhw9he2T33MfOPDexVH_&ust=1712050478369000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDN8JbboIUDFQAAAAAdAAAAABAE');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .login {
+            background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+            padding: 20px;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>FWI Prediction</h1>
+        <!-- Main Input For Receiving Query to our ML -->
+        <form action="{{ url_for('predict_datapoint')}}" method="post">
+            <input type="text" name="Temperature" placeholder="Temperature" required="required">
+            <br>
+            <input type="text" name="RH" placeholder="RH" required="required" >
+            <br>
+            <input type="text" name="Ws" placeholder="Ws" required="required">
+            <br>
+            <input type="text" name="Rain" placeholder="Rain" required="required">
+            <br>
+            <input type="text" name="FFMC" placeholder="FFMC" required="required">
+            <br>
+            <input type="text" name="DMC" placeholder="DMC" required="required">
+            <br>
+            <input type="text" name="ISI" placeholder="ISI" required="required">
+            <br>
+            <input type="text" name="Classes" placeholder="Classes" required="required">
+            <br>
+            <input type="text" name="Region" placeholder="Region" required="required">
+            <br>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+        <h2> THE FWI prediction is {{ results }}</h2>
+    </div>
+</body>
+</html>
