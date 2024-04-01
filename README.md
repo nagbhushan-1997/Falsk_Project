@@ -22,5 +22,26 @@ Below are tasks to be performed in EDA:
 **2. Data Cleaning for EDA Report**
 
 **3. Exploratory Data Analysis (EDA) on all Features**
+
+
+## Next I have made use of following steps:
+
+a. Feature Engineering
+b. Label Encoding, For class feature,
+c. Data Visualization
+d. Creating Heat map using Correlation
+e. EDA( Exploratory Data Analysis )
+f. Splitting  the Data Into Train Test Split
+
+I used 3 Regression Problems,
+
+1. Linear Regression 
+2. Ridge Regression
+3. Lasso Regression
+4. Ridge CV 
+5. Lasso CV
+
+In these Regressions I got to know Ridge Regression is performing well and I have included this in my Pickle File.
+I have used Pickle Files to load and I have created a Flask application for  predicting the Algerian Fire "FWI" Feature.
 """
 
