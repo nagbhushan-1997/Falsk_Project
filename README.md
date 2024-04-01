@@ -24,10 +24,3 @@ Below are tasks to be performed in EDA:
 **3. Exploratory Data Analysis (EDA) on all Features**
 """
 
-# Write the text to a file named "Readme.txt"
-with open("Readme.txt", "w") as file:
-    file.write(text)
-
-# Print a success message
-print("The text was successfully written to Readme.txt file.")
-
