@@ -1,6 +1,6 @@
-# Define the text to be written in the file
 
-*This Flask Project is a data Science project in which I have used Algerian Forest Fire Data Set from https://archive.ics.uci.edu/dataset/547/algerian+forest+fires+dataset project *
+
+* This Flask Project is a data Science project in which I have used Algerian Forest Fire Data Set from https://archive.ics.uci.edu/dataset/547/algerian+forest+fires+dataset project *
 
 ## 2. DATA COLLECTION AND UNDERSTANDING
 
